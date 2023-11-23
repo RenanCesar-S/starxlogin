@@ -31,8 +31,23 @@
 }
 
 @media (orientation: landscape) {
-    body {
-        overflow: auto;
+
+
+    #login_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 80%;
+        height: 100vh;
+
+        margin-top: 36px;
+    }
+
+    .login-section {
+        width: 60%;
+        height: 80%;
     }
 
     .copyright {
