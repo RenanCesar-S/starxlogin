@@ -53,8 +53,12 @@ body {
 }
 
 .page-name h2 {
-    font-family: var(--logo-font);
-    font-size: 1.4rem;
+    font-family: var(--principal-font);
+    font-size: 1.6rem;
+    font-weight: bold;
+
+
+    letter-spacing: 1px;
 
     color: #fff;
 }
