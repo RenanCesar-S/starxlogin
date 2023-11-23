@@ -31,6 +31,10 @@
 }
 
 @media (orientation: landscape) {
+    body {
+        overflow: auto;
+    }
+
     .copyright {
         display: block;
     }
