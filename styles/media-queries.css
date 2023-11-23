@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    #login_container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #login_container {
+        top: 26%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 60%;
+    }
+
+    .copyright {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #login_container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #login_container {
+        width: 40%;
+    }
+}
+
+@media (orientation: landscape) {
+    .copyright {
+        display: block;
+    }
+}

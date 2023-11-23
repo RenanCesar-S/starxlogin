@@ -32,14 +32,12 @@ body {
 }
 
 #login_container {
-    width: 90%;
+    width: 100vw;
     
     margin: auto;
 
     text-align: center;
 
-    width: 100vw;
-    height: 100vh;
     position: absolute;
     top: 0;
     left: 0px;
