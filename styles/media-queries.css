@@ -30,21 +30,42 @@
     }
 }
 
-@media (orientation: landscape) and (max-height: 498px){
+@media (orientation: landscape) and (max-height: 400px){
 
     #login_container {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        top: 128px;
+        display: block;
+
+        width: 60vw;
     }
 
     .login-section {
-        width: 100vw;
-        height: 90%;
+        margin: 0;
+        padding: 8px 16px;
+
+        width: 100%;
+    }
+
+    .page-name {
+        padding: 0;
+        margin: 8px 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .input-layout input {
+        font-size: 12px;
+        text-indent: 0;
     }
 
     .copyright {
