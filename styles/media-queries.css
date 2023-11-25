@@ -30,24 +30,21 @@
     }
 }
 
-@media (orientation: landscape) {
-
+@media (orientation: landscape) and (max-height: 498px){
 
     #login_container {
+
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
 
-        width: 80%;
-        height: 100vh;
-
-        margin-top: 36px;
+        top: 128px;
     }
 
     .login-section {
-        width: 60%;
-        height: 80%;
+        width: 100vw;
+        height: 90%;
     }
 
     .copyright {
