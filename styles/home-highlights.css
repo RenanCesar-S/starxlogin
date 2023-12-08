@@ -1,11 +1,10 @@
 .highlights {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 
     margin: 0 8px;
-
+    height: 640px;
 }
 
 .best-sellers, .desired {
@@ -13,17 +12,47 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 32px;
+    height: 36px;
 
     border: 1px solid #747474;
+}
+
+.best-sellers, .desired:hover {
+    cursor: pointer;
 }
 
 .best-sellers {
     border-bottom: none;
 }
 
+.best-sellers p {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.desired p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    opacity: 0.5;
+
+    background-color: #3B3C41;
+
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+}
+
+.desired p span {
+    text-align: center;
+}
+
 .desired {
     border-left: none;
     border-top: none;
     border-right: none;
+
 }
+
