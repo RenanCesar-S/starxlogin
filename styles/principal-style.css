@@ -87,6 +87,16 @@ body {
     width: 100%;
 }
 
+.login-section form p{
+    padding: 8px;
+    text-align: center;
+
+    font-family: var(--principal-font);
+    font-size: 1rem;
+
+    display: none;
+}
+
 .input-layout {
     margin-bottom: 32px;
 }

@@ -1,0 +1,219 @@
+.safe-buy {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.safe-buy {
+    width: 120px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.safe-buy img {
+    opacity: 0.9;
+}
+
+.safe-buy p {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.safe-buy span {
+    color: #008000;
+}
+
+.sub-total {
+    height: 74px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+
+    border: 1px solid #ffffff59;
+
+    border-left: none;
+    border-right: none;
+
+    background: #161618;
+}
+
+.sub-total .value p:first-child {
+    color: #fff;
+    opacity: 0.9;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sub-total .value #first_value {
+    color: #00e205;
+    opacity: 0.9;
+
+    font-weight: 600;
+}
+
+.sub-total #pay_button {
+    border-style: none;
+    background-color: #00e205;
+    border-radius: 4px;
+    
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+    width: 64px;
+    height: 42px;
+    transition: all 0.6s;
+}
+
+.sub-total #pay_button:hover {
+    background-color: #008002;
+    color: #c9c9c9;
+
+    cursor: pointer;
+}
+
+
+.your-cart {
+    height: 56vh;
+    background-color: #474747;
+    color: #fff;
+}
+
+.your-cart h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+
+    padding: 32px 0px 16px 8px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 8px;
+
+    background-color: #161618;
+}
+
+.summary span:first-child {
+    display: flex;
+    align-items: center;
+    background-color: #494A4F;
+    
+    height: 48px;
+
+    padding: 8px;
+}
+
+.order-calculate {
+    padding: 8px;
+}
+
+.order-calculate .cart-summary, .full-order-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 32px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #fff;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.full-order-value {
+    border: none;
+    padding: 0;
+    margin-top: 16px;
+
+    height: 48px;
+    align-items: start;
+}
+
+.full-order-value .coin-value {
+    font-size: 20px;
+
+    color: #00e205;
+}
+
+.coin-value {
+    display: flex;
+    align-items: center;
+}
+
+.coin {
+    margin-left: 6px;
+}
+
+.big-pay-button {
+    text-decoration: none;
+    border: none;
+
+    width: 100%;
+    padding: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: #00e205;
+
+    transition: all 0.6s;
+}
+
+.big-pay-button:hover {
+    background-color: #008002;
+    color: #c9c9c9;
+
+    cursor: pointer;
+}
+
+.refund {
+    padding: 8px;
+    margin: 8px 0;
+    height: 56px;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+
+    opacity: 0.8;
+}
+
+.refund p {
+    margin-bottom: 4px;
+}
+
+.refund a {
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 12px;
+}
+
+.payment-types {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 8px;
+
+    margin-top: 16px;
+}
+
+.payment-types p {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+
+    margin-bottom: 8px;
+}

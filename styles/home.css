@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Playfair+Display&display=swap');
+
+:root {
+    --logo-font: 'Audiowide', sans-serif;
+    --principal-font: 'Playfair Display', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #525252;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    background: #525252;
+}
+
+.acess-bar {
+    background: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-height: 58px;
+}
+
+.home-link {
+    height: 58px;
+    width: 70%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 100%;
+    width: 50%;
+    padding: 8px;
+
+    font-family: var(--logo-font);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+    height: 58px;
+    width: 30%;
+    padding: 8px;
+}
+
+.shopping-acess {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+
+    padding: 8px;
+
+    border-left: 1px solid black;
+
+}
+
+.btns {
+    padding: 8px;
+}
+
+.btns img:hover {
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 40px;
+    
+    background: #000000;
+}
+
+.menu-icon {
+    padding: 16px;
+    cursor: pointer;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+#search_games {
+    width: 100%;
+    height: 100%;
+    
+    border: none;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    
+    background-color: #e8e5e0;
+}
+
+#search_games:focus {
+    outline: none;
+    font-style: var(--principal-font);
+}
+
+.search-icon {
+    background-color: #b625b6;
+    
+    height: 100%;
+    padding: 8px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.menu-options {
+    background-color: #000000;
+    color: #fff;
+
+    transition: all 0.4s;
+    
+    visibility: hidden;
+    overflow-y: hidden;
+
+    height: 0px;
+}
+
+.menu-options p {
+    opacity: 0.8;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+    padding: 8px;
+    text-indent: 16px;
+    
+    border-top: 1px solid #8080809c;
+}
+
+.menu-options p:hover {
+    cursor: pointer;
+}
+
+.menu-options p:last-child {
+    border-bottom: 1px solid #8080809c;
+}
+
+.active {
+    visibility: visible;
+    overflow-y: auto;
+    height: calc(100vh - 538px);
+}
