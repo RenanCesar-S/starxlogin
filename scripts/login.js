@@ -21,7 +21,7 @@ function userCredentials(e) {
         loginMessage.innerHTML = "Welcome to StarX Gaming...";
 
         setInterval(() => {
-            location.href = "../pages/home.html";
+            location.href = "./pages/home.html";
         }, 2000);
 
     } else {

@@ -1,0 +1,29 @@
+.highlights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 8px;
+
+}
+
+.best-sellers, .desired {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 32px;
+
+    border: 1px solid #747474;
+}
+
+.best-sellers {
+    border-bottom: none;
+}
+
+.desired {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
