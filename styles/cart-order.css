@@ -203,6 +203,8 @@
     color: #fff;
 
     font-size: 12px;
+
+    text-decoration: underline;
 }
 
 .payment-types {
