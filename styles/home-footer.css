@@ -34,6 +34,10 @@ footer {
     margin-top: 8px;
 }
 
+.add-links {
+    font-size: 15px;
+}
+
 .add-links p, span, .terms-and-conditions p, span {
     margin-left: 4px;
     margin-top: 8px;
