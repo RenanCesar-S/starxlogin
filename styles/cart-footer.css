@@ -1,0 +1,36 @@
+footer {
+    background-color: #181818;
+}
+
+.terms-and-conditions {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+
+    padding-left: 8px;
+    padding-top: 16px;
+}
+
+.secure-img img{
+    opacity: 0.8;
+}
+
+.name-supports p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.9;
+
+    margin-top: 8px;
+
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 32px;
+
+    color: #fff;
+    opacity: 0.8;
+    
+    font-size: 12px;
+}

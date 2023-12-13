@@ -1,0 +1,21 @@
+.work-with-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #278637;
+    color: #fff;
+
+    padding: 16px;
+}
+
+.work-with-us p {
+    margin-top: 8px;
+    transition: all 0.4s;
+}
+
+.work-with-us p:hover {
+    color: #003809;
+    cursor: pointer;
+}

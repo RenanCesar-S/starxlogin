@@ -1,0 +1,19 @@
+.slogan {
+    background-color: #181818;
+    height: 128px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan p {
+    padding: 16px;
+    width: 86%;
+    color: #fff;
+    opacity: 0.8;
+
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
