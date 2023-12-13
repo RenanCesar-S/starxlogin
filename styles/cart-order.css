@@ -84,9 +84,10 @@
 
 
 .your-cart {
-    height: 56vh;
     background-color: #474747;
     color: #fff;
+
+    padding-bottom: 32px;
 }
 
 .your-cart h3 {
