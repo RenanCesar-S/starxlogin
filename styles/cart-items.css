@@ -16,6 +16,8 @@
 .information-side {
     display: flex;
     flex-direction: row;
+
+    width: 100%;
 }
 
 .name-and-plataform {
