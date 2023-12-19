@@ -161,8 +161,9 @@
 
 .game-price, .game-old-price {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
+
 }
 
 .game-price {

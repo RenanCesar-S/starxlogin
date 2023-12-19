@@ -1,0 +1,101 @@
+.game-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #686868;
+
+    margin: 8px;
+}
+
+.game-item:nth-child(1) {
+    align-items: end;
+}
+
+.information-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-and-plataform {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+
+    padding: 8px;
+}
+
+.name-and-plataform i {
+    display: flex;
+    align-items: center;
+
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.plataform {
+    margin: 8px 0;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 64px;
+    margin-top: 8px;
+
+}
+
+.counter .less,.more {
+    border: 1px solid #aaaaaa59;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.counter .more {
+    color: #34e034;
+    border-color: #34e034;
+}
+
+.counter .less {
+    opacity: 0.5;
+    color: #aaaaaa59;
+}
+
+.counter .number {
+    font-size: 16px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.price-side {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+
+    padding: 8px;
+
+    font-size: 14px;
+}
+
+.game-old-price, .game-price {
+    font-size: 13px;
+}
