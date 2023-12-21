@@ -1,4 +1,4 @@
-let buyButtom = document.querySelectorAll('.buy')
+let buyButtom = document.querySelectorAll('.buy-division')
 let cartCounter = document.querySelector('.cart-counter')
 let valueOfCart = document.querySelector('.value-of-cart')
 
